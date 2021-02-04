@@ -6,9 +6,9 @@
     <version>2.4.1</version>
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
-  <groupId>eureka</groupId>
+  <groupId>eureka.registry</groupId>
   <artifactId>eureka</artifactId>
-  <version>eureka</version>
+  <version>1.0</version>
   <properties>
 
     <java.version>11</java.version>
@@ -39,20 +39,6 @@
       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
     </dependency>
 
-
-
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <dependencyManagement>
